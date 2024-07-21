@@ -16,7 +16,7 @@ def main():
     st.write("Enter a name to predict the gender:")
 
     # Load the model
-    model_path = 'gender_prediction_model.joblib'
+    model_path = 'abc.joblib'
     model = load_model(model_path)
 
     name_input = st.text_input("Name:")
